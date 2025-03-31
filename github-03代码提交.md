@@ -56,3 +56,26 @@ Username for 'https://github.com': https://github.com
 输入token
 Password for 'https://https%3A%2F%2Fgithub.com@github.com': 
 ```
+
+### 示例流程
+
+假设你要对 `main` 分支进行二次提交，操作步骤如下：
+
+bash
+
+```bash
+# 查看文件状态
+git status
+
+# 添加所有更改的文件到暂存区
+git add .
+
+# 提交暂存区的文件到本地仓库
+git commit -m "更新 bug"
+
+# 拉取远程仓库的最新代码
+git pull origin main
+
+# 推送本地代码到远程仓库
+git push origin main
+```
