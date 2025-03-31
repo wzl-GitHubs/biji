@@ -227,5 +227,3 @@
 - **示例**：
   - `du -h dir`：以人类可读的格式显示 `dir` 目录及其子目录的磁盘使用情况。
   - `du -sh dir`：以人类可读的格式显示 `dir` 目录的总计磁盘使用情况。
-
-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
